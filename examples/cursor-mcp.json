@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "marketcaper": {
+      "url": "https://marketcaper.com/api/mcp"
+    }
+  }
+}
