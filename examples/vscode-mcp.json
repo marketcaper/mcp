@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "marketcaper": {
+      "type": "http",
+      "url": "https://marketcaper.com/api/mcp"
+    }
+  }
+}
