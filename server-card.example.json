@@ -1,0 +1,29 @@
+{
+  "name": "marketcaper-mcp",
+  "description": "Cited market comparisons, asset snapshots, comparison packs, and stock heatmap images for AI agents.",
+  "url": "https://marketcaper.com/api/mcp",
+  "docs_url": "https://marketcaper.com/mcp",
+  "server_card_url": "https://marketcaper.com/.well-known/mcp/server-card.json",
+  "authentication": "none",
+  "tools": [
+    "get_asset_snapshot",
+    "compare_assets",
+    "compare_assets_pack",
+    "get_stock_heatmap"
+  ],
+  "best_for": [
+    "cited financial content",
+    "social market comparison posts",
+    "Telegram and Discord finance bots",
+    "newsletter and briefing workflows",
+    "research assistant answers",
+    "hosted comparison and heatmap PNGs"
+  ],
+  "not_for": [
+    "trading automation",
+    "portfolio monitoring",
+    "technical analysis",
+    "backtesting",
+    "bulk extraction"
+  ]
+}
