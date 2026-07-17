@@ -2,6 +2,50 @@
 
 These examples are prompts and workflows for MCP-compatible clients. They intentionally do not include private keys, secrets, or application source code.
 
+## Visual gallery
+
+Marketcaper MCP can provide hosted PNGs alongside cited comparison data. The images below are checked-in examples for client builders and content teams.
+
+### US stock market-cap heatmaps
+
+Classic view:
+
+![Classic US market-cap heatmap](../examples/images/classic-us-market-cap-1d.png)
+
+Live MCP image endpoint:
+
+```text
+https://marketcaper.com/api/mcp/heatmap/images?view=classic&universe=us&metric=marketCap&timeframe=1D
+```
+
+Bubble view:
+
+![Bubble US market-cap heatmap](../examples/images/bubble-us-market-cap-1d.png)
+
+Live MCP image endpoint:
+
+```text
+https://marketcaper.com/api/mcp/heatmap/images?view=bubble&universe=us&metric=marketCap&timeframe=1D
+```
+
+Both images above were fetched on July 17, 2026. Their `2048 x 1024` PNG output is a point-in-time snapshot: always fetch a fresh image for current market commentary.
+
+### Cross-asset comparison exports
+
+Bitcoin compared with the British Pound FX market-cap scale:
+
+![Bitcoin versus British Pound comparison export](../examples/images/comparison-btc-gbp.jpg)
+
+Current source page: https://marketcaper.com/btc/gbp
+
+NVIDIA compared with Ethereum's market cap:
+
+![NVIDIA versus Ethereum comparison export](../examples/images/comparison-nvda-eth.jpg)
+
+Current source page: https://marketcaper.com/nvda/eth
+
+These JPEGs are static export examples. Their displayed values are captures from when they were created, so agents should cite and link the current canonical comparison page rather than treating the image as a live quote.
+
 ## Social comparison post
 
 Prompt:
