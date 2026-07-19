@@ -95,7 +95,7 @@ These are real PNG and JPEG examples that an MCP client can use in a post, bot r
 | Bitcoin vs British Pound comparison card | ![Bitcoin versus British Pound comparison export](examples/images/comparison-btc-gbp.jpg) | Static export example for [BTC vs GBP](https://marketcaper.com/btc/gbp) |
 | NVIDIA vs Ethereum comparison card | ![NVIDIA versus Ethereum comparison export](examples/images/comparison-nvda-eth.jpg) | Static export example for [NVDA vs ETH](https://marketcaper.com/nvda/eth) |
 
-The heatmaps were fetched on July 17, 2026 from the live MCP image endpoints. They are point-in-time market snapshots, not permanent market data or trading signals. Comparison-card examples are static exports; use the linked canonical comparison page for current values.
+The heatmaps were fetched on July 19, 2026 from the live MCP image endpoints. They are point-in-time market snapshots, not permanent market data or trading signals. Comparison-card examples are static exports; use the linked canonical comparison page for current values.
 
 ## License
 

@@ -28,7 +28,7 @@ Live MCP image endpoint:
 https://marketcaper.com/api/mcp/heatmap/images?view=bubble&universe=us&metric=marketCap&timeframe=1D
 ```
 
-Both images above were fetched on July 17, 2026. Their `2048 x 1024` PNG output is a point-in-time snapshot: always fetch a fresh image for current market commentary.
+Both images above were fetched on July 19, 2026. Their `2048 x 1024` PNG output is a point-in-time snapshot: always fetch a fresh image for current market commentary.
 
 ### Cross-asset comparison exports
 
