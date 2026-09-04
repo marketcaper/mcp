@@ -4,12 +4,13 @@ Marketcaper MCP gives AI agents fresh market data and something worth posting: c
 
 It is built for social-content agents, Telegram and Discord finance bots, newsletters, research assistants, and coding assistants that need current, source-linked finance context.
 
+- Official MCP Registry: [`com.marketcaper/mcp`](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.marketcaper%2Fmcp)
 - Docs: https://marketcaper.com/mcp
 - MCP endpoint: https://marketcaper.com/api/mcp
 - Server card: https://marketcaper.com/.well-known/mcp/server-card.json
 - Website: https://marketcaper.com
 
-No API key is required for public read-only MCP access. Rate limits apply to protect the service.
+The official MCP Registry listing is the main public distribution channel. Direct endpoint URLs remain valid for clients that cannot search the registry. No API key is required for public read-only MCP access. Rate limits apply to protect the service.
 
 ## What it is good for
 
@@ -36,7 +37,9 @@ See [docs/tools.md](docs/tools.md) for input and output guidance.
 
 ## Quick setup
 
-Use this endpoint in MCP-compatible clients:
+Prefer the official MCP Registry listing [`com.marketcaper/mcp`](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.marketcaper%2Fmcp) when the client can search it.
+
+Otherwise use this endpoint in MCP-compatible clients:
 
 ```text
 https://marketcaper.com/api/mcp

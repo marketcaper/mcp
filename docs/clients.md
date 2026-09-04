@@ -1,6 +1,6 @@
 # Client Setup
 
-Use the same public MCP endpoint in compatible clients:
+The official MCP Registry listing [`com.marketcaper/mcp`](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.marketcaper%2Fmcp) is the main public install channel. Use the same public MCP endpoint in compatible clients that cannot search the registry:
 
 ```text
 https://marketcaper.com/api/mcp
